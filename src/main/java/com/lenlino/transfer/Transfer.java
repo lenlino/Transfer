@@ -135,7 +135,7 @@ public class Transfer {
                 }
             }
         });*/
-        server.getEventManager().register(this,this);
+        //server.getEventManager().register(this,this);
         //getProxy().registerChannel("bungeewaiter:protocol_version");
         TimerTask task = new TimerTask() {
             @Override
